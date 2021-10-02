@@ -1,0 +1,114 @@
+Candidates must hold an upper secondary education diploma or are going to hold one in 2021.
+Candidates must take the admission test.
+Candidates must provide evidence of knowledge of the english language.
+The non-EU candidates who are residing abroad and are successful in the selection round are also
+required to obtain a visa for study purposes for academic year 2021-2022 for “University
+enrolment”.
+To register
+for a selection round, the candidate must register on the Infostud system and get a
+matriculation number. To register
+for a selection round, the candidate must print the personalized form (payment slip) of €10 from Infostud, using the selection code indicated below. To register
+for a selection round, the candidate must make the payment exclusively during the time intervals indicated in Article 2.
+On the last day available for the payment, the online payment must be processed before 20:30.
+Applications for the selection round sent by post or payments made using different methods from those
+described will not be accepted.
+The test must have been taken in January 2020 or later and the achieved score has to be delivered by the
+day before the registration deadline for the selection round (at 24:00).
+The TOLC-I test may be taken more than once.
+If, for example, a candidate enrols in a selection by choosing the course and paying the
+payment slip of € 10, but fails to take the test within the time window of the related selection round, they will
+have to participate in a subsequent selection round, thus paying a new payment slip of € 10.
+The SAT may be taken more than once.
+The candidate is required to ask the College Board to forward the SAT scores to Sapienza University of Rome.
+Notice that the scores
+must be received by Sapienza University of Rome on time for the selection round, as per the calendar in
+Article 2.
+To take part in the selection, the English level of the candidate must be at least at the B2 level.
+To provide evidence for it, the
+candidates have to provide one language certificate among FCE, IELTS, TOEFL, CAE, CPE.
+The candidates have to achieve at least 24/30 in the English section of the TOLC-I.
+The documents required must be sent via email by the end of the pre-enrolment period for the first or second selection round or by the end of the enrolment period for the third selection round.
+the senders are requested to specify their name and surname, matriculation number assigned by the
+Infostud system, application date, selection round and the kind of attached document.
+If the candidate achieved a score equal or greater than 36/100 amd fulfil the English language requirements may pre-enrol.
+To carry out the pre-enrolment, the candidate has to access Infostud and follow the instructions.
+To pre-enrol the candidate must pay a fee of 200€.
+Students who do not complete the enrolment process within the dates indicated will be deemed to
+have given up their place.
+the candidates who hold a non-Italian Upper Secondary Education
+diploma are required to present the following mandatory documentation to the Hello Foreign Students
+office.
+non-EU citizens permanently residing abroad who apply for a study visa are required to obtain
+a visa for study purposes.
+Successful candidates already enrolled in a different degree must submit the application to change their degree programme.
+Successful candidates already enrolled in a different degree must pay a change fee.
+Once the change fee is paid, students will not be allowed to take exams in the degree programme from which
+they came.
+Successful candidates coming from other Italian Universities are required to submit the application to transfer to the University they come from.
+Successful candidates coming from other Italian Universities are required to make the payment of the transfer fee and complete the enrolment process within the deadlines.
+the request of the recognition of university exams  must be issued by october 31st.
+Students who wish to renounce to the enrolment in the degree
+programme, are required to refer to the Student Office and submit a written declaration on a stamp-
+impressed paper or on plain paper with a € 16 fee stamp on it.
+Candidates who do not reside in Italy are required to submit
+the certificate issued in the country of residence, accompanied by a certified translation into Italian or
+English.
+Accommodations must be approved by the College Board’s Services for Students with
+Disabilities.
+The TOLC-I test must have been taken from the 1st of January 2020 on.
+It is allowed to undergo the test also
+more than once.
+Calculation of ISEE is necessary to obtain tuition fees reductions.
+A claim should be created before it can be approved or rejected.
+A claim should be approved before it can be paid out.
+Once a claim has been approved it should eventually be paid out.
+Once a claim has been rejected it should not be paid out.
+After a case is created LO can and must arrange a meeting between the union case worker the LO case worker and the DA case worker.
+After a meeting is arranged it must be held.
+To create a case the case worker should enter metadata on the case inform about when he/she is available for participating in a meeting and then submit the case.
+Once a date has been agreed upon a meeting should eventually be held.
+Only after LO has assigned its case id it is possible to manage the case and for LO to propose dates.
+Every process instance starts by examining a patient.
+If an x-ray is taken then the x-ray risk must be checked before it.
+If a surgery is performed then prescription of rehabilitation occurs eventually after it.
+After a cast is applied eventually the cast is removed and vice versa.
+The process begins with the booking of the ticket.
+Personal information of passengers can be provided after the booking of the ticket.
+The payment of the ticket triggers the completion of the booking phase.
+The payment of the ticket is eventually followed by the actual transfer of money.
+As long as the Check-in of the flight does not take place the customers can still modify the provided data to change.
+After check-in of the flight only the cancellation is admitted.
+The process starts when an invoice is received by the administration department.
+When all necessary approvals have been received the invoice can be paid.
+If they decide that the invoice appears legit then they enter all relevant data into the system in particular the amount the invoice is for which is used by the workflow system to determine whose approval is needed for the invoice.
+When all necessary approvals have been received the invoice can be paid.
+Once payment is confirmed the invoice case should be closed.
+Receive invoice is required before the administration department can execute Enter data or Scan invoice.
+Enter data is required before any approval can be given.
+Finally we have to pay the invoice before we can confirm payment.
+If a request is sent then a proposal is expected to be prepared afterwards.
+A confirmation is supposed to be mandatorily given after the proposal and vice-versa any proposal is expected to precede a confirmation.
+Every process instance has to start with activity "register client data".
+Every room service must be billed.
+Every laundry service must be billed.
+When the client checks-out the bill must be "charged"
+A customer brings in a defective computer and the manager checks the defect and hands out a repair cost calculation back.
+After each of these activities the proper system functionality is tested.
+If an error is detected another arbitrary repair activity is executed  otherwise the repair is finished.
+After a claim is registered it is examined by a claims officer.
+This recommendation is then checked by a senior claims officer who may mark the claim as OK or Not OK.
+If the claim is marked as Not OK it is sent back to the claims officer and the recommendation is repeated.
+If the claim is OK the claim handling process proceeds.
+The process of buying new hardware is started as soon as a request for new hardware is received by the IT department.
+The next step is for the IT department to analyse the request and either approve or deny it.
+If the request is denied the employee is informed via email about the denial and the process is ended.
+However if the request is approved it is edited and completed.
+Once this offer is received a form is filled in and sent to the management.
+The management then analyses the request and decides if it is approved or not.
+When this is accepted and the financial resources are found the hardware is received by the IT department.
+After which the financial department will take care of the invoice and the processes is ended.
+In the scenario where the management does not approve the request it can send the request back to the IT department for rework then the IT department has to go back to editing and completing a request.
+If the management does not approve the request it can also decide to deny the request after which the process is ended.
+The loan approval process starts by receiving a customer request for a loan amount.
+If the customer needs further review or the loan amount is for $10 or more.
+The process of an Office Supply Request starts when any employee of the organization submits an office supply request.
