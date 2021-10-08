@@ -1,0 +1,1184 @@
+Loading NLP tools.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Finished loading NLP tools.
+
+Parsing: The rector, having regard to the laws and rules involved, decrees Students’ enrolment in the Degree Programme in Applied Computer Science and Artificial Intelligence of the Faculty of Information Engineering, Informatics and Statistics in the degree programme for academic year 2021-2022 is subject to the previous acquisition of an Upper Secondary Education diploma and to the participation to one of the following admission tests.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The rector, having regard to the laws and rules involved, decrees Students’ enrolment in the Degree Programme in Applied Computer Science and Artificial Intelligence of the Faculty of Information Engineering, Informatics and Statistics in the degree programme for academic year 2021-2022 is subject to the previous acquisition of an Upper Secondary Education diploma and to the participation to one of the following admission tests.
+
+Parsing: The rector, having regard to the laws and rules involved, decrees Students’ enrolment in the Degree Programme in Applied Computer Science and Artificial Intelligence of the Faculty of Information Engineering, Informatics and Statistics in the degree programme for academic year 2021-2022 is subject to the previous acquisition of an Upper Secondary Education diploma and to the participation to one of the following admission tests.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: the rector, B=Action: the participation to one of the following admission tests]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The TOLC-I test, taken in 2020 or 2021, delivered on a computerized platform and managed by the Consortium for the Interuniversity-Access Integrated Systems (CISIA).
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The TOLC-I test, taken in 2020 or 2021, delivered on a computerized platform and managed by the Consortium for the Interuniversity-Access Integrated Systems (CISIA).
+
+Parsing: The TOLC-I test, taken in 2020 or 2021, delivered on a computerized platform and managed by the Consortium for the Interuniversity-Access Integrated Systems (CISIA).
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: take, B=Action: the tolc-i test , taken in 2020 or 2021 , manage]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The SAT (Scholastic Assessment Test) General Test, managed by the College Board which can be taken at any of the SAT Centres in the world.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The SAT (Scholastic Assessment Test) General Test, managed by the College Board which can be taken at any of the SAT Centres in the world.
+
+Parsing: The SAT (Scholastic Assessment Test) General Test, managed by the College Board which can be taken at any of the SAT Centres in the world.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: the sat -lrb- scholastic assessment test -rrb- general test , manage, B=Action: take the college board which can be taken at any of the sat centres in the world]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: All selection rounds are open to EU citizens (regardless of where they reside) and non-EU citizens legally residing in Italy.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: All selection rounds are open to EU citizens (regardless of where they reside) and non-EU citizens legally residing in Italy.
+
+Parsing: All selection rounds are open to EU citizens (regardless of where they reside) and non-EU citizens legally residing in Italy.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: they reside, B=Action: reside]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: For each selection round, a number of available places is reserved for non-EU citizens who are residing abroad.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: For each selection round, a number of available places is reserved for non-EU citizens who are residing abroad.
+
+Parsing: For each selection round, a number of available places is reserved for non-EU citizens who are residing abroad.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: reserve a number of available places, B=Action: non-eu citizens who are residing abroad reside]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The payment can be made at any Italian branch of Unicredit bank or online.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The payment can be made at any Italian branch of Unicredit bank or online.
+
+Parsing: The payment can be made at any Italian branch of Unicredit bank or online.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: make the payment]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Registration for a selection round entails making the payment with a payment slip of the sum of €10 that is valid for one selection round only.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Registration for a selection round entails making the payment with a payment slip of the sum of €10 that is valid for one selection round only.
+
+Parsing: Registration for a selection round entails making the payment with a payment slip of the sum of €10 that is valid for one selection round only.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: registration for a selection round entail, B=Action: make the payment]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: If candidates decide to take part in a subsequent selection round too, they must make a new registration for the selection round and make another payment using the payment slip of the sum of €10.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: If candidates decide to take part in a subsequent selection round too, they must make a new registration for the selection round and make another payment using the payment slip of the sum of €10.
+merging activities: Action: candidates decide and: Action: take part in a subsequent selection
+Merged activity: Action: candidates decide part in a subsequent selection
+
+Parsing: If candidates decide to take part in a subsequent selection round too, they must make a new registration for the selection round and make another payment using the payment slip of the sum of €10.
+Pattern matching failed
+Constraint identified: Constraint [type=RESPONDED_EXISTENCE, A=Action: candidates decide part in a subsequent selection, B=Action: they make a new registration for the selection round]
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: candidates decide part in a subsequent selection, B=Action: they make another payment using the payment slip of the sum of € 10]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: On no account will the registration fee be refunded.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: On no account will the registration fee be refunded.
+
+Parsing: On no account will the registration fee be refunded.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: refund the registration fee]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Any communications will be sent to the e-mail address provided for the registration on Infostud.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Any communications will be sent to the e-mail address provided for the registration on Infostud.
+
+Parsing: Any communications will be sent to the e-mail address provided for the registration on Infostud.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: send any communications, B=Action: provide]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: We recommend that candidates carefully check the e-mail address is correct and that they continually check their inbox.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: We recommend that candidates carefully check the e-mail address is correct and that they continually check their inbox.
+
+Parsing: We recommend that candidates carefully check the e-mail address is correct and that they continually check their inbox.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: we recommend, B=Action: they check their inbox]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The TOLC-I test is the online test of CISIA for engineering subjects.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The TOLC-I test is the online test of CISIA for engineering subjects.
+
+Parsing: The TOLC-I test is the online test of CISIA for engineering subjects.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: the tolc-i test, B=Action: the online test of cisia for engineering subjects]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The TOLC-I test (also in the TOLC@HOME format) consists of 50 questions divided into 4 sections.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The TOLC-I test (also in the TOLC@HOME format) consists of 50 questions divided into 4 sections.
+
+Parsing: The TOLC-I test (also in the TOLC@HOME format) consists of 50 questions divided into 4 sections.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: the tolc-i test -lrb- also in the tolc@home format -rrb- consist, B=Action: divide]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The sections whose score counts for the selection procedure are: Mathematics, Science, Logic, Verbal comprehension.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The sections whose score counts for the selection procedure are: Mathematics, Science, Logic, Verbal comprehension.
+
+Parsing: The sections whose score counts for the selection procedure are: Mathematics, Science, Logic, Verbal comprehension.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: the sections whose score counts for the selection procedure, B=Action: mathematics , science , logic , verbal comprehension]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The candidate who undergoes the test obtains a TOLC-I score, summing up the scores of the four sections.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The candidate who undergoes the test obtains a TOLC-I score, summing up the scores of the four sections.
+
+Parsing: The candidate who undergoes the test obtains a TOLC-I score, summing up the scores of the four sections.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: the candidate who undergoes the test obtain a tolc-i score, B=Action: sum the scores of the four sections]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The TOLC-I score is necessary for the admission procedure and determines the ranking as described in Point 1.5 and Appendix A.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The TOLC-I score is necessary for the admission procedure and determines the ranking as described in Point 1.5 and Appendix A.
+
+Parsing: The TOLC-I score is necessary for the admission procedure and determines the ranking as described in Point 1.5 and Appendix A.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: the tolc-i score determine the ranking, B=Action: describe]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: For the purposes of the selection rounds of this announcement the best score achieved will be used among those achieved from the 1st of January 2020 as per the calendar in Article 2.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: For the purposes of the selection rounds of this announcement the best score achieved will be used among those achieved from the 1st of January 2020 as per the calendar in Article 2.
+
+Parsing: For the purposes of the selection rounds of this announcement the best score achieved will be used among those achieved from the 1st of January 2020 as per the calendar in Article 2.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: the best score achieve, B=Action: achieve]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Two versions of TOLC-I are offered: English TOLC-I and Italian TOLC-I.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Two versions of TOLC-I are offered: English TOLC-I and Italian TOLC-I.
+
+Parsing: Two versions of TOLC-I are offered: English TOLC-I and Italian TOLC-I.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: offer english tolc-i and italian tolc-i]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The candidate can opt for any of the two versions.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The candidate can opt for any of the two versions.
+
+Parsing: The candidate can opt for any of the two versions.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: the candidate opt]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: However, the Italian TOLC-I requires the candidate to provide an additional confirmation of the adequate knowledge of the English language (see Point 1.4).
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: However, the Italian TOLC-I requires the candidate to provide an additional confirmation of the adequate knowledge of the English language (see Point 1.4).
+
+Parsing: However, the Italian TOLC-I requires the candidate to provide an additional confirmation of the adequate knowledge of the English language (see Point 1.4).
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: provide the candidate to provide an additional confirmation of the adequate knowledge of the english language, B=Action: the candidate to provide an additional confirmation of the adequate knowledge of the english language]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The Italian TOLC-I includes an extra section in English.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The Italian TOLC-I includes an extra section in English.
+
+Parsing: The Italian TOLC-I includes an extra section in English.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: the italian tolc-i include an extra section in english]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The score of the extra section does not contribute to the ranking but can be used to attest the knowledge of English, as explained in Point 1.4.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The score of the extra section does not contribute to the ranking but can be used to attest the knowledge of English, as explained in Point 1.4.
+merging activities: Action: the score of the extra section not contribute and: Action: do
+Merged activity: Action: the score of the extra section not contribute
+
+Parsing: The score of the extra section does not contribute to the ranking but can be used to attest the knowledge of English, as explained in Point 1.4.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: the score of the extra section not contribute, B=Action: explain]
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: use the score of the extra section, B=Action: explain]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Further information on the structure of the TOLC-I and the assessment criteria are indicated in Appendix A.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Further information on the structure of the TOLC-I and the assessment criteria are indicated in Appendix A.
+
+Parsing: Further information on the structure of the TOLC-I and the assessment criteria are indicated in Appendix A.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: indicate further information on the structure of the tolc-i and the assessment criteria]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The registration to TOLC-I can be made on-line on CISIA’s portal upon the payment of a € 30 contribution and the selection of the test venue.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The registration to TOLC-I can be made on-line on CISIA’s portal upon the payment of a € 30 contribution and the selection of the test venue.
+
+Parsing: The registration to TOLC-I can be made on-line on CISIA’s portal upon the payment of a € 30 contribution and the selection of the test venue.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: make the registration to tolc-i]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: TOLC-I tests may be taken at Sapienza University or any other accredited centre of the CISIA consortium.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: TOLC-I tests may be taken at Sapienza University or any other accredited centre of the CISIA consortium.
+
+Parsing: TOLC-I tests may be taken at Sapienza University or any other accredited centre of the CISIA consortium.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: take tolc-i tests]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Each test date is split into several turns.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Each test date is split into several turns.
+
+Parsing: Each test date is split into several turns.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: split each test date]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The test venues and timetables are indicated on the CISIA's portal.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The test venues and timetables are indicated on the CISIA's portal.
+
+Parsing: The test venues and timetables are indicated on the CISIA's portal.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: indicate the test venues and timetables]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The TOLC-I registration receipt (printed via the CISIA website) must be shown on the day of the test to enter the test room.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The TOLC-I registration receipt (printed via the CISIA website) must be shown on the day of the test to enter the test room.
+
+Parsing: The TOLC-I registration receipt (printed via the CISIA website) must be shown on the day of the test to enter the test room.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: print, B=Action: enter the test room]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The TOLC home test is offered at the student's home on the dates and sessions reported on the CISIA'S portal.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The TOLC home test is offered at the student's home on the dates and sessions reported on the CISIA'S portal.
+
+Parsing: The TOLC home test is offered at the student's home on the dates and sessions reported on the CISIA'S portal.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: offer the tolc home test, B=Action: report]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The candidate is recommended to pay utmost attention to the registration deadlines for the tests and the selection rounds.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The candidate is recommended to pay utmost attention to the registration deadlines for the tests and the selection rounds.
+
+Parsing: The candidate is recommended to pay utmost attention to the registration deadlines for the tests and the selection rounds.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: recommend the candidate, B=Action: pay utmost attention]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The SAT is a standardized test used to apply to colleges and universities worldwide.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The SAT is a standardized test used to apply to colleges and universities worldwide.
+
+Parsing: The SAT is a standardized test used to apply to colleges and universities worldwide.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: use, B=Action: apply]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: It includes a Reading Test, a Writing and Language Test, and a Math Test.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: It includes a Reading Test, a Writing and Language Test, and a Math Test.
+
+Parsing: It includes a Reading Test, a Writing and Language Test, and a Math Test.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: it include a reading test , a writing and language test , and a math test, B=Action: write]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: It is managed by the College Board.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: It is managed by the College Board.
+
+Parsing: It is managed by the College Board.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: manage it]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Information on the tests such as dates, fees, test centres, deadlines and score reports can be found on the College Board website.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Information on the tests such as dates, fees, test centres, deadlines and score reports can be found on the College Board website.
+
+Parsing: Information on the tests such as dates, fees, test centres, deadlines and score reports can be found on the College Board website.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: find information on the tests such as dates , fees , test centres , deadlines and score reports]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The candidate who undergoes the test obtains a SAT score.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The candidate who undergoes the test obtains a SAT score.
+
+Parsing: The candidate who undergoes the test obtains a SAT score.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: the candidate who undergoes the test undergo the candidate who undergoes the test, B=Action: the candidate who undergoes the test obtain a sat score]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The SAT score is necessary for the admission procedure and determines the ranking as described in Point 1.5 and Appendix A.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The SAT score is necessary for the admission procedure and determines the ranking as described in Point 1.5 and Appendix A.
+
+Parsing: The SAT score is necessary for the admission procedure and determines the ranking as described in Point 1.5 and Appendix A.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: the sat score determine the ranking, B=Action: describe]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: For the purposes of the selection rounds of this call the best score will be considered among those achieved from the 1st of January 2020 as per the calendar in Article 2.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: For the purposes of the selection rounds of this call the best score will be considered among those achieved from the 1st of January 2020 as per the calendar in Article 2.
+
+Parsing: For the purposes of the selection rounds of this call the best score will be considered among those achieved from the 1st of January 2020 as per the calendar in Article 2.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: consider the best score, B=Action: achieve]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Once the terms for taking part in the selection rounds are over, the rankings are prepared for each selection round.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Once the terms for taking part in the selection rounds are over, the rankings are prepared for each selection round.
+
+Parsing: Once the terms for taking part in the selection rounds are over, the rankings are prepared for each selection round.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: take the terms for taking part in the selection rounds, B=Action: prepare the rankings]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Candidates are ranked according to their score.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Candidates are ranked according to their score.
+
+Parsing: Candidates are ranked according to their score.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: rank candidates, B=Action: accord]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Scores are expressed in hundredths as explained in Appendix A.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Scores are expressed in hundredths as explained in Appendix A.
+
+Parsing: Scores are expressed in hundredths as explained in Appendix A.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: express scores, B=Action: explain]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: For those candidates that have taken the admission test multiple times (during the time interval going from the first of January 2020 to 24:00 of the day before the deadline for registration for the selection round), the score that will be used for the preparation of the ranking lists is the highest one they achieved in all their attempts.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: For those candidates that have taken the admission test multiple times (during the time interval going from the first of January 2020 to 24:00 of the day before the deadline for registration for the selection round), the score that will be used for the preparation of the ranking lists is the highest one they achieved in all their attempts.
+
+Parsing: For those candidates that have taken the admission test multiple times (during the time interval going from the first of January 2020 to 24:00 of the day before the deadline for registration for the selection round), the score that will be used for the preparation of the ranking lists is the highest one they achieved in all their attempts.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: those candidates that have taken the admission test multiple times -lrb- during the time interval going from the of january 2020 to 24:00 of the day the deadline for registration for the selection round -rrb- take those candidates that have taken the admission test multiple times -lrb- during the time interval going from the of january 2020 to 24:00 of the day the deadline for registration for the selection round -rrb-, B=Action: the highest one they achieved in all their attempts achieve]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The publication date of the ranking list related to each selection round is indicated in the calendar of procedures as explained in Article 2.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The publication date of the ranking list related to each selection round is indicated in the calendar of procedures as explained in Article 2.
+
+Parsing: The publication date of the ranking list related to each selection round is indicated in the calendar of procedures as explained in Article 2.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: indicate the publication date of the ranking list related to each selection round, B=Action: explain]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The ranking lists are published both online and in printed format at the Student Office.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The ranking lists are published both online and in printed format at the Student Office.
+
+Parsing: The ranking lists are published both online and in printed format at the Student Office.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: publish the ranking lists, B=Action: print]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The amount paid for the pre-enrolment fee will be deducted from the enrolment fee described in Article 4.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The amount paid for the pre-enrolment fee will be deducted from the enrolment fee described in Article 4.
+
+Parsing: The amount paid for the pre-enrolment fee will be deducted from the enrolment fee described in Article 4.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: pay, B=Action: describe]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: On no account will the pre-enrolment fee be refunded.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: On no account will the pre-enrolment fee be refunded.
+
+Parsing: On no account will the pre-enrolment fee be refunded.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: refund the pre-enrolment fee]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The place they leave vacant becomes available for the subsequent selection round.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The place they leave vacant becomes available for the subsequent selection round.
+
+Parsing: The place they leave vacant becomes available for the subsequent selection round.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: the place they leave vacant leave, B=Action: the place they leave vacant become]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The enrolment process is completed by paying the first instalment of the enrolment tuition fees for the academic year 2021-2022, to which the €16 stamp duty and the regional fee are added.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The enrolment process is completed by paying the first instalment of the enrolment tuition fees for the academic year 2021-2022, to which the €16 stamp duty and the regional fee are added.
+
+Parsing: The enrolment process is completed by paying the first instalment of the enrolment tuition fees for the academic year 2021-2022, to which the €16 stamp duty and the regional fee are added.
+Pattern matching failed
+Identified meta-relation: Interrelation [A=Action: complete the enrolment process, B=Action: pay the instalment of the enrolment tuition fees, type=FOLLOWS]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Hello-Foreign Students Office have the right to verify that all of the submitted documents are genuine, as well as request any additional documents deemed necessary to confirm possession/authenticity of entry requirements.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Hello-Foreign Students Office have the right to verify that all of the submitted documents are genuine, as well as request any additional documents deemed necessary to confirm possession/authenticity of entry requirements.
+
+Parsing: Hello-Foreign Students Office have the right to verify that all of the submitted documents are genuine, as well as request any additional documents deemed necessary to confirm possession/authenticity of entry requirements.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: verify, B=Action: confirm the right to verify that all of the submitted documents are genuine , as well as request any additional documents deemed necessary to confirm possession/authenticity of entry requirements]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: In compliance with the regulations issued by the competent authorities in the context of the Coronavirus emergency, the registration procedures such as submission, processing and administrative checking of the mandatory documents will also be carried out online.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: In compliance with the regulations issued by the competent authorities in the context of the Coronavirus emergency, the registration procedures such as submission, processing and administrative checking of the mandatory documents will also be carried out online.
+
+Parsing: In compliance with the regulations issued by the competent authorities in the context of the Coronavirus emergency, the registration procedures such as submission, processing and administrative checking of the mandatory documents will also be carried out online.
+Pattern matching failed
+Identified meta-relation: Interrelation [A=Action: issue, B=Action: carry the registration procedures such as submission , processing and administrative checking of the mandatory documents, type=FOLLOWS]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The regulations in effect for the academic year 2021-2022 are available online.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The regulations in effect for the academic year 2021-2022 are available online.
+
+Parsing: The regulations in effect for the academic year 2021-2022 are available online.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: the regulations in effect for the academic year 2021-2022]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Upon enrolment, candidates who succeeded in a selection round can apply for an abbreviation of the degree programme or the recognition of university exams they may have held during their own previous academic career according to the following procedures.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Upon enrolment, candidates who succeeded in a selection round can apply for an abbreviation of the degree programme or the recognition of university exams they may have held during their own previous academic career according to the following procedures.
+
+Parsing: Upon enrolment, candidates who succeeded in a selection round can apply for an abbreviation of the degree programme or the recognition of university exams they may have held during their own previous academic career according to the following procedures.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: candidates who succeeded in a selection round apply, B=Action: candidates who succeeded in a selection round]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: In compliance with the regulations issued by the competent authorities in the context of the Coronavirus emergency, the registration procedures such as submission, processing and administrative checking of the mandatory documents will also be carried out online.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: In compliance with the regulations issued by the competent authorities in the context of the Coronavirus emergency, the registration procedures such as submission, processing and administrative checking of the mandatory documents will also be carried out online.
+
+Parsing: In compliance with the regulations issued by the competent authorities in the context of the Coronavirus emergency, the registration procedures such as submission, processing and administrative checking of the mandatory documents will also be carried out online.
+Pattern matching failed
+Identified meta-relation: Interrelation [A=Action: issue, B=Action: carry the registration procedures such as submission , processing and administrative checking of the mandatory documents, type=FOLLOWS]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Special situations will be evaluated based on the declarations in the submitted certificates.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Special situations will be evaluated based on the declarations in the submitted certificates.
+
+Parsing: Special situations will be evaluated based on the declarations in the submitted certificates.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: evaluate special situations, B=Action: submit]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Candidates with documented disabilities are eligible for accommodations when taking the SAT test.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Candidates with documented disabilities are eligible for accommodations when taking the SAT test.
+
+Parsing: Candidates with documented disabilities are eligible for accommodations when taking the SAT test.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: document, B=Action: take the sat test]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Some available accommodations are extended time, extra and extended breaks, and reading and seeing accommodations.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Some available accommodations are extended time, extra and extended breaks, and reading and seeing accommodations.
+
+Parsing: Some available accommodations are extended time, extra and extended breaks, and reading and seeing accommodations.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: extend time , extra and extended breaks, B=Action: see]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: It can take several weeks for accommodations to be approved.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: It can take several weeks for accommodations to be approved.
+
+Parsing: It can take several weeks for accommodations to be approved.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: it take several weeks for accommodations, B=Action: approve]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The present announcement is also published online and at the Student Office.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The present announcement is also published online and at the Student Office.
+
+Parsing: The present announcement is also published online and at the Student Office.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: the present announcement publish]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Please refer to the website and the Student Office for updates.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Please refer to the website and the Student Office for updates.
+
+Parsing: Please refer to the website and the Student Office for updates.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: refer]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: See the contact details below.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: See the contact details below.
+
+Parsing: See the contact details below.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: see the contact details]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: In compliance with articles 4, 5 and 6 of law no.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: In compliance with articles 4, 5 and 6 of law no.
+
+Parsing: In compliance with articles 4, 5 and 6 of law no.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: compliance with articles 4 , 5 and 6 of law no]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: 241/90, the official in charge of the administrative procedure is Graziella Censi, Head of the Student Office of the Faculty of Information Engineering, Information Technology and Statistics.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: 241/90, the official in charge of the administrative procedure is Graziella Censi, Head of the Student Office of the Faculty of Information Engineering, Information Technology and Statistics.
+
+Parsing: 241/90, the official in charge of the administrative procedure is Graziella Censi, Head of the Student Office of the Faculty of Information Engineering, Information Technology and Statistics.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: 241/90 , the official in charge of the administrative procedure, B=Action: graziella censi , head of the student office of the faculty of information engineering , information technology and statistics]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: In case of disputes, the competent court will be Rome.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: In case of disputes, the competent court will be Rome.
+
+Parsing: In case of disputes, the competent court will be Rome.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: case of disputes, B=Action: rome]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The TOLC-I test is open to students enrolled in the last or second-last year of upper secondary school and to those who already hold an upper secondary education diploma.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The TOLC-I test is open to students enrolled in the last or second-last year of upper secondary school and to those who already hold an upper secondary education diploma.
+
+Parsing: The TOLC-I test is open to students enrolled in the last or second-last year of upper secondary school and to those who already hold an upper secondary education diploma.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: enrol, B=Action: those who already hold an upper secondary education diploma hold those who already hold an upper secondary education diploma]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The candidate can take the test at Sapienza University of Rome or any other authorised TOLC-I test member venue of CISIA.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The candidate can take the test at Sapienza University of Rome or any other authorised TOLC-I test member venue of CISIA.
+
+Parsing: The candidate can take the test at Sapienza University of Rome or any other authorised TOLC-I test member venue of CISIA.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: the candidate take the test]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The test is also provided in the TOLC@HOME format, which allows the candidate to take the test at home.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The test is also provided in the TOLC@HOME format, which allows the candidate to take the test at home.
+
+Parsing: The test is also provided in the TOLC@HOME format, which allows the candidate to take the test at home.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: provide the test, B=Action: take the tolc@home format , which allows the candidate to take the test at home]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The calendar with the test dates is available online.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The calendar with the test dates is available online.
+
+Parsing: The calendar with the test dates is available online.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: the calendar with the test dates]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The TOLC-I test consists of 50 questions divided into 4 sections.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The TOLC-I test consists of 50 questions divided into 4 sections.
+
+Parsing: The TOLC-I test consists of 50 questions divided into 4 sections.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: the tolc-i test consist, B=Action: divide]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The sections whose score counts for the selection procedure are: Mathematics, Science, Logic, Verbal comprehension.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The sections whose score counts for the selection procedure are: Mathematics, Science, Logic, Verbal comprehension.
+
+Parsing: The sections whose score counts for the selection procedure are: Mathematics, Science, Logic, Verbal comprehension.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: the sections whose score counts for the selection procedure, B=Action: mathematics , science , logic , verbal comprehension]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The number of questions and time available for each section are detailed in the table below.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The number of questions and time available for each section are detailed in the table below.
+
+Parsing: The number of questions and time available for each section are detailed in the table below.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: detail the number of questions and time available for each section]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The final result of the TOLC-I test is an absolute score determined by the number of correct answers, the number of wrong answers, and the number of answers not given, in the Mathematics, Science, Logic and Verbal comprehension sections.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The final result of the TOLC-I test is an absolute score determined by the number of correct answers, the number of wrong answers, and the number of answers not given, in the Mathematics, Science, Logic and Verbal comprehension sections.
+
+Parsing: The final result of the TOLC-I test is an absolute score determined by the number of correct answers, the number of wrong answers, and the number of answers not given, in the Mathematics, Science, Logic and Verbal comprehension sections.
+Pattern matching failed
+Constraint identified: Constraint [type=NOT-COEXISTENCE, A=Action: determine, B=Action: give]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The score is computed as follows.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The score is computed as follows.
+
+Parsing: The score is computed as follows.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: compute the score, B=Action: follow]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The Italian TOLC-I includes an additional section on English.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The Italian TOLC-I includes an additional section on English.
+
+Parsing: The Italian TOLC-I includes an additional section on English.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: the italian tolc-i include an additional section on english]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The number of questions and the time available are detailed in the table below.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The number of questions and the time available are detailed in the table below.
+
+Parsing: The number of questions and the time available are detailed in the table below.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: detail the number of questions and the time available]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: In the English language section, no penalty is given for wrong answers.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: In the English language section, no penalty is given for wrong answers.
+
+Parsing: In the English language section, no penalty is given for wrong answers.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: give no penalty]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The score is determined by assigning 1 point for each correct answer and 0 points for each wrong or not given answers.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The score is determined by assigning 1 point for each correct answer and 0 points for each wrong or not given answers.
+
+Parsing: The score is determined by assigning 1 point for each correct answer and 0 points for each wrong or not given answers.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: determine the score, B=Action: assign 1 point for each correct answer and 0 points]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The score obtained in the English section of the Italian TOLC-I does not contribute to the overall score used for ranking.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The score obtained in the English section of the Italian TOLC-I does not contribute to the overall score used for ranking.
+
+Parsing: The score obtained in the English section of the Italian TOLC-I does not contribute to the overall score used for ranking.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: obtain, B=Action: use]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: However, it will determine the satisfaction of the English language requirements as per Point 1.4.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: However, it will determine the satisfaction of the English language requirements as per Point 1.4.
+
+Parsing: However, it will determine the satisfaction of the English language requirements as per Point 1.4.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: it determine the satisfaction of the english language requirements as per point 1.4]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: Each candidate can check the score achieved in the TOLC-I on CISIA’s website by logging in with the access credentials used when registering on CISIA’s portal.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: Each candidate can check the score achieved in the TOLC-I on CISIA’s website by logging in with the access credentials used when registering on CISIA’s portal.
+merging activities: Action: use and: Action: log
+Merged activity: Action: use
+
+Parsing: Each candidate can check the score achieved in the TOLC-I on CISIA’s website by logging in with the access credentials used when registering on CISIA’s portal.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: use, B=Action: register]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: If the test is taken in the TOLC@HOME format, the score will be available in 48 hours after the completion of the test.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: If the test is taken in the TOLC@HOME format, the score will be available in 48 hours after the completion of the test.
+
+Parsing: If the test is taken in the TOLC@HOME format, the score will be available in 48 hours after the completion of the test.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: take the test]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: For the purposes of the selection rounds of this announcement the best score achieved by the candidate will be used.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: For the purposes of the selection rounds of this announcement the best score achieved by the candidate will be used.
+
+Parsing: For the purposes of the selection rounds of this announcement the best score achieved by the candidate will be used.
+Pattern matching failed
+Constraint identified: Constraint [type=RESPONDED_EXISTENCE, A=Action: achieve, B=Action: use the best score achieved by the candidate]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: More detailed information on how the test is carried out, test guides and practice tests may be found on CISIA’s portal.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: More detailed information on how the test is carried out, test guides and practice tests may be found on CISIA’s portal.
+
+Parsing: More detailed information on how the test is carried out, test guides and practice tests may be found on CISIA’s portal.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: carry more detailed information on how the test is carried out, B=Action: find guides and practice tests]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The SAT is a standardized test used to apply to colleges and universities worldwide.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The SAT is a standardized test used to apply to colleges and universities worldwide.
+
+Parsing: The SAT is a standardized test used to apply to colleges and universities worldwide.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: use, B=Action: apply]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: It includes a Reading Test, a Writing and Language Test, and a Math Test.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: It includes a Reading Test, a Writing and Language Test, and a Math Test.
+
+Parsing: It includes a Reading Test, a Writing and Language Test, and a Math Test.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: it include a reading test , a writing and language test , and a math test, B=Action: write]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: It is managed by the College Board: information on the tests such as dates, fees, test centres, deadlines and score reports can be found on the College Board website.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: It is managed by the College Board: information on the tests such as dates, fees, test centres, deadlines and score reports can be found on the College Board website.
+
+Parsing: It is managed by the College Board: information on the tests such as dates, fees, test centres, deadlines and score reports can be found on the College Board website.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: manage it, B=Action: find information on the tests such as dates , fees , test centres , deadlines and score reports]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The SAT has four components (excluding the optional 50-minute Essay, which is not considered for the admission procedure described in this announcement).
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The SAT has four components (excluding the optional 50-minute Essay, which is not considered for the admission procedure described in this announcement).
+
+Parsing: The SAT has four components (excluding the optional 50-minute Essay, which is not considered for the admission procedure described in this announcement).
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: exclude, B=Action: describe]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The timed portion of the SAT is three hours, as detailed in the table below.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The timed portion of the SAT is three hours, as detailed in the table below.
+
+Parsing: The timed portion of the SAT is three hours, as detailed in the table below.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: time, B=Action: detail]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The SAT total score, reported on a 400–1600 scale, combines two scores: the Evidence-Based Reading and Writing score and the Math score (200–800 scale each).
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The SAT total score, reported on a 400–1600 scale, combines two scores: the Evidence-Based Reading and Writing score and the Math score (200–800 scale each).
+
+Parsing: The SAT total score, reported on a 400–1600 scale, combines two scores: the Evidence-Based Reading and Writing score and the Math score (200–800 scale each).
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: report, B=Action: write]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The score report, however, provides more detailed information with further sub-scores.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The score report, however, provides more detailed information with further sub-scores.
+
+Parsing: The score report, however, provides more detailed information with further sub-scores.
+Pattern matching failed
+Constraint identified: Constraint [type=EXISTENCE, A=Action: the score report provide more detailed information with further sub-scores]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: To cater for a ranking that encompasses all tests accepted for the admission procedure described in this announcement, a scale in hundredths is adopted.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: To cater for a ranking that encompasses all tests accepted for the admission procedure described in this announcement, a scale in hundredths is adopted.
+merging activities: Action: cater and: Action: a ranking that encompasses all tests accepted for the admission procedure described in this announcement encompass
+Merged activity: Action: cater
+
+Parsing: To cater for a ranking that encompasses all tests accepted for the admission procedure described in this announcement, a scale in hundredths is adopted.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: cater, B=Action: adopt a scale in hundredths]
+
+
+Loading NLP tools.
+Finished loading NLP tools.
+
+Parsing: The conversion is based on the following conversion formulas.
+Pattern matching failed
+no matching pattern found, using text parser for constraint extraction
+sentence: The conversion is based on the following conversion formulas.
+
+Parsing: The conversion is based on the following conversion formulas.
+Pattern matching failed
+Constraint identified: Constraint [type=PRECEDENCE, A=Action: the conversion, B=Action: base the conversion]
+
+
+
