@@ -1,5 +1,5 @@
 # ConstraintFinder
-A neural network that can find sentences containing constraints from txt business document written in natural language.
+A neural network that can find sentences containing constraints from txt formal documents written in natural language.
 
 ## Requirements
 The software is written entirely in Python 3.9.5 so is recommended to use this version to be sure everything will work. Nonetheless, I'm pretty sure that every 3.9.x version will be good. To run the code you have to install the following libraries: Gensim, NLTK, TensorFlow, Pickle, NumPy, Matplotlib and nnfs.
