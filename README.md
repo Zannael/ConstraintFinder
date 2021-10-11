@@ -130,5 +130,5 @@ import statistics
 
 tup = round(M.validation_accuracies[-1], 3), M.validation_recalls[-1], round(M.validation_losses[-1], 3)
 hm = round(statistics.harmonic_mean((tup[0], tup[1])), 3)
-print("Allenamento  & " + str(tup[0]) + " & " + str(tup[1]) + " & " + str(tup[2]) + " & " + str(hm))
+print("Validation  & " + str(tup[0]) + " & " + str(tup[1]) + " & " + str(tup[2]) + " & " + str(hm))
 ```
