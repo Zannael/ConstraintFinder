@@ -47,3 +47,61 @@ nM, tokenizer = use_model("./models/_.model", "./data/try.txt", "./data/try2.txt
 This function returns:
   - nM, the model.
   - tokenizer, the Tensorflow tokenizer object (we need it later).
+
+And takes in input:
+  - The path where to save the model.
+  - The path of NON-constraint sentences (the sentences that don't contain constraints).
+  - The path of constraint sentences.
+  - The training parameter (True in this case).
+
+### Make predictions
+We can use the same functions with different arguments.
+For Word2vec:
+
+```Python
+M, res = use_w2vec_model("./models/bestw2vec.model", "", "", max_len=length, training=False, doc_path="data/final_test.txt", w2vec_model=wvec)
+```
+
+The function returns:
+  - M, the model.
+  - res, array with (sentence, class_number) elements where class_number is 0: constraint, 1: non constraint
+
+And takes in input:
+  - The path from where to load the model.
+  - Empty strings for the 2 training paths (yeah ik, awful).
+  - max_len=length, the one returned from the training. 
+  - The training parameter (False in this case).
+  - doc_path is the path from where the model reads the sentences on which it makes predictions. The format of this document is the same as described before.
+  - w2vec_model=wvec, the object returned from the training.
+
+**If you want to make predictions without training before, using a pretrained model, make sure you know exactly the length value and you have stored the wvec object (e.g. with pickle).**
+
+For TF model:
+
+```Python
+nM, res = use_model("./models/_.model", "", "", training=False, doc_path="data/final_test.txt", tokenizer=tokenizer)
+```
+
+The function returns:
+  - nM, the model.
+  - res, array with (sentence, class_number) elements where class_number is 0: constraint, 1: non constraint
+
+And takes in input:
+  - The path from where to load the model.
+  - Empty strings for the 2 training paths.
+  - The training parameter (False in this case).
+  - doc_path is the path from where the model reads the sentences on which it makes predictions. The format of this document is the same as described before.
+  - tokenizer=tokenizer, the object returned from the training.
+
+### Show predictions and save to file
+To show the sentences with constraints you can just run the first line of code and print. The second line writes the sentences in a file at declareextraction-master/DeclareExtraction/nn_outputs/. The file is already formatted as the DeclareExtraction program requires.
+
+```Python
+cs = get_constraint_sentences(res)
+write_to_file(cs, w2vec=False)
+```
+
+res is just the array returned with the predictions and w2vec True/False only changes the name of the file created.
+
+### Run DeclareExtraction
+If you followed the first part of the README you already have [this](https://github.com/hanvanderaa/declareextraction) program downloaded and placed in your project root folder. You've already copy-pasted my add-on files. Now you can simply run the Java program. If you have your predicted sentences stored somewhere that's not declareextraction-master/DeclareExtraction/nn_outputs/ you have to open the new DeclareExtractor.java file and change this path with yours.
