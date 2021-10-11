@@ -105,3 +105,30 @@ res is just the array returned with the predictions and w2vec True/False only ch
 
 ### Run DeclareExtraction
 If you followed the first part of the README you already have [this](https://github.com/hanvanderaa/declareextraction) program downloaded and placed in your project root folder. You've already copy-pasted my add-on files. Now you can simply run the Java program. If you have your predicted sentences stored somewhere that's not declareextraction-master/DeclareExtraction/nn_outputs/ you have to open the new DeclareExtractor.java file and change this path with yours.
+
+## ConstraintFinder show results
+To plot training accuracy, recall and loss just use:
+
+```Python
+M.plot(w2vec=False)
+```
+
+Where M is a Model object (returned for example after training). This function **saves** the plots in a folder. w2vec parameter is just for the name of the files saved.
+
+If you use: 
+
+```Python
+M.plot(show=True)
+```
+
+Your IDE will (hopefully 😬) show you the plots (and save 'em as well).
+
+To get validation accuracy, recall and loss:
+
+```Python
+import statistics
+
+tup = round(M.validation_accuracies[-1], 3), M.validation_recalls[-1], round(M.validation_losses[-1], 3)
+hm = round(statistics.harmonic_mean((tup[0], tup[1])), 3)
+print("Allenamento  & " + str(tup[0]) + " & " + str(tup[1]) + " & " + str(tup[2]) + " & " + str(hm))
+```
