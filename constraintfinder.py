@@ -973,6 +973,7 @@ class Model:
         self.loss.new_pass()
         self.accuracy.new_pass()
 
+        recall = 0
         # Iterate over steps
         for step in range(validation_steps):
 
@@ -1001,6 +1002,18 @@ class Model:
             predictions = self.output_layer_activation.predictions(
                 output)
 
+            true_positives = 0
+            false_positives = 0
+            for i in range(len(predictions)):
+                if predictions[i] == batch_y[i] == 0:
+                    true_positives += 1
+                elif predictions[i] != batch_y[i] == 0:
+                    false_positives += 1
+
+            step_recall = round(true_positives / (true_positives + false_positives), 3)
+            print(step_recall)
+            recall += step_recall
+
             self.accuracy.calculate(predictions, batch_y)
 
         # Get and print validation loss and accuracy
@@ -1009,6 +1022,7 @@ class Model:
 
         self.validation_accuracies.append(validation_accuracy)
         self.validation_losses.append(validation_loss)
+        self.validation_recalls.append(round(recall / validation_steps, 3))
 
         # Print a summary
         print(f'validation, ' +
@@ -1290,11 +1304,11 @@ def kfold_cross_evaluation(cicle_number, chunks, X, y):
 # the paths of Non Constraint Sentences and Costraint Sentences respectively
 # doc_path is MANDATORY for training = False, is the txt file
 # from where you want to make predictions.
-# for training = False just fill two parameters with "", "" when calling
-# pass also max_value and tokenizer, returned by this function when
+# for training = False just fill two parameters with "", "" when calling.
+# pass also tokenizer, returned by this function when
 # training = True. It needs them to expand the dictionary of known words
 # from testing data
-def use_model(model_path, ncs_path, cs_path, training=False, doc_path="", max_value=0, tokenizer=None):
+def use_model(model_path, ncs_path, cs_path, training=False, doc_path="", tokenizer=None):
     # we make classification between sentences that contain 1/more constraints
     # and sentences that doesn't have one
     classes = {0: "Constraint", 1: "Non Constraint"}
@@ -1334,7 +1348,7 @@ def use_model(model_path, ncs_path, cs_path, training=False, doc_path="", max_va
         # model saving and return
         # we return also max_value i.e. biggest word dictionary key and the tokenizer
         model.save(model_path)
-        return model, max_value, tokenizer
+        return model, tokenizer
 
 
 # model path means:
@@ -1373,7 +1387,6 @@ def use_w2vec_model(model_path, ncs_path, cs_path, max_len=0, training=False, do
         # depending on the class of the sentence at index i.
         # original is the array with the original sentences (non reducted form)
         sentences, pr, original = class_mapping(c_sentences, nc_sentences)
-
         # we prepare data to form the input for a Word2vec model
         data = [[]]
         for s in sentences: data[0] += s.lower().split(" ")
@@ -1480,30 +1493,3 @@ def use_w2vec_model(model_path, ncs_path, cs_path, max_len=0, training=False, do
 
 
 def get_constraint_sentences(results): return [r[0] for r in results if r[1] == 0]
-
-
-# Train a W2VEC model
-M, length, wvec = use_w2vec_model("./models/_.model", "./data/try.txt", "./data/try2.txt", training=True)
-
-print("\n")
-print("-" * 100)
-print("\n")
-print(M.validation_accuracies[-1])
-M.plot(w2vec=True)
-# Use a W2VEC model
-M, res = use_w2vec_model("./models/bestw2vec.model", "", "", max_len=64, training=False, doc_path="data/final_test.txt", w2vec_model=wvec)
-cs = get_constraint_sentences(res)
-write_to_file(cs, w2vec=True)
-
-# Train a normal model
-nM, maxv, tokenizer = use_model("./models/_.model", "./data/try.txt", "./data/try2.txt", training=True)
-
-print("\n")
-print("-" * 100)
-print("\n")
-
-nM.plot()
-# Use a normal model
-nM, res = use_model("./models/_.model", "", "", training=False, doc_path="data/final_test.txt", max_value=maxv, tokenizer=tokenizer)
-cs = get_constraint_sentences(res)
-write_to_file(cs, w2vec=False)
