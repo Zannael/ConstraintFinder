@@ -17,7 +17,7 @@ The Java project expects a .txt file with one line per sentence.
 ## ConstraintFinder - how to run
 If you meet the requirements you can follow this short guideline to run my project:
 ### File format
-The program takes in input two text files to train its neural network and one text file to make predictions. The file can have multiple sentences per line and multiple line per sentence, the only thing you need to check is that every sentence needs to end with a correct punctuation.
+The program takes in input two text files to train its neural network and one text file to make predictions. Every file can have multiple sentences per line and multiple line per sentence, the only thing you need to check is that every sentence needs to end with a correct punctuation.
 
 ### Train
 You have to train the model to use it for the first time. There are two different implementations for two types of word embedding (Word2vec, Tensorflow tokenizer):
