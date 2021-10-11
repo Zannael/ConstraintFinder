@@ -74,7 +74,7 @@ And takes in input:
   - doc_path is the path from where the model reads the sentences on which it makes predictions. The format of this document is the same as described before.
   - w2vec_model=wvec, the object returned from the training.
 
-**If you want to make predictions without training before, using a pretrained model, make sure you know exactly the length value and you have stored the wvec object (e.g. with pickle).**
+**If you want to make predictions without training before, using a pretrained model, make sure you know exactly the length value and you have stored somewhere the wvec object (e.g. with pickle).**
 
 For TF model:
 
