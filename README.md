@@ -21,6 +21,7 @@ The program takes in input two text files to train its neural network and one te
 
 ### Train
 You have to train the model to use it for the first time. There are two different implementations for two types of word embedding (Word2vec, Tensorflow tokenizer):
+
 For Word2vec:
 
 ```Python
@@ -56,6 +57,7 @@ And takes in input:
 
 ### Make predictions
 We can use the same functions with different arguments.
+
 For Word2vec:
 
 ```Python
