@@ -106,7 +106,7 @@ write_to_file(cs, w2vec=False)
 res is just the array returned with the predictions and w2vec True/False only changes the name of the file created.
 
 ### Run DeclareExtraction
-If you followed the first part of the README you already have [this](https://github.com/hanvanderaa/declareextraction) program downloaded and placed in your project root folder. You've already copy-pasted my add-on files. Now you can simply run the Java program. If you have your predicted sentences stored somewhere that's not declareextraction-master/DeclareExtraction/nn_outputs/ you have to open the new DeclareExtractor.java file and change this path with yours.
+If you followed the first part of the README you already have [this](https://github.com/hanvanderaa/declareextraction) program downloaded and placed in your project root folder and you've already copy-pasted my add-on files. Now you can simply run the Java program. If you have your predicted sentences stored somewhere that's not declareextraction-master/DeclareExtraction/nn_outputs/ you have to open the new DeclareExtractor.java file and change this path with yours.
 
 ## ConstraintFinder show results
 To plot training accuracy, recall and loss just use:
